@@ -39,13 +39,13 @@ public class Ventana extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1100, 725));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(1100, 725));
+        setPreferredSize(new java.awt.Dimension(1600, 900));
 
         jPanel1.setOpaque(false);
         jPanel1.setLayout(null);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/MPE_LogIn_02.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Mighty-Mouse-Image.png"))); // NOI18N
         jLabel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jLabel1MouseDragged(evt);
@@ -57,7 +57,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 1040, 520);
+        jLabel1.setBounds(0, -30, 1740, 990);
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
