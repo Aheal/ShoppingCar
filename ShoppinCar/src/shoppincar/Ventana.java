@@ -37,15 +37,15 @@ public class Ventana extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1100, 725));
+        setMinimumSize(new java.awt.Dimension(1700, 900));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(1600, 900));
+        setPreferredSize(new java.awt.Dimension(1700, 900));
 
         jPanel1.setOpaque(false);
         jPanel1.setLayout(null);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Mighty-Mouse-Image.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/MPE__Activities_Extended_04.jpg"))); // NOI18N
         jLabel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jLabel1MouseDragged(evt);
